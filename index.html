@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Hi, I'm <span>Anusmita</span></h1>
+      <p class="hero-subtitle">Electronics & Computer Science Enthusiast</p>
+      <a href="#tech" class="hero-button">View My Work</a>
+
+      <!-- Social Media Icons -->
+      <div class="hero-socials">
+        <a href="http://www.linkedin.com/in/anusmita-maiti-79a32b31a" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/anusmita-maiti" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/its_me_anusmita_maiti?igsh=MTZ0bW92NXhiYnR0Ng==" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="images/picture.jpg" alt="Anusmita" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm Anusmita, a B.Tech student in Electronics and Computer Science. I build embedded systems using Arduino & ESP32 and develop full-stack apps with HTML, CSS, JavaScript, React, and Node.js. I'm passionate about integrating hardware and software to solve real-world problems.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section class="tech-section" id="tech">
+    <div class="tech-content">
+      <h2>Technologies I Use</h2>
+      <ul class="tech-list">
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Tailwind CSS</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>Java</li>
+        <li>Python</li>
+      </ul>
+    </div>
+  </section>
+  <!-- Skills Section -->
+<section class="skills-section" id="skills">
+  <div class="skills-container">
+    <h2 class="skills-title">Skill Set</h2>
+    <div class="skills-grid">
+      
+      <!-- Left Column -->
+      <div class="skill-group">
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          <span>HTML</span>
+          <div class="progress-bar"><div style="width: 80%"></div></div>
+          <span class="percent">80%</span>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+          <span>CSS</span>
+          <div class="progress-bar"><div style="width: 65%"></div></div>
+          <span class="percent">65%</span>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" />
+          <span>JavaScript</span>
+          <div class="progress-bar"><div style="width: 40%"></div></div>
+          <span class="percent">40%</span>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" alt="WordPress" />
+          <span>WordPress</span>
+          <div class="progress-bar"><div style="width: 90%"></div></div>
+          <span class="percent">90%</span>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="skill-group">
+        <div class="skill">
+          <img src= "images/canva.jpeg"  alt="Canva" />
+          <span>Canva Editing</span>
+          <div class="progress-bar"><div style="width: 70%"></div></div>
+          <span class="percent">70%</span>
+        </div>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/2696/2696407.png" alt="Video Editing" />
+          <span>Video Editing</span>
+          <div class="progress-bar"><div style="width: 80%"></div></div>
+          <span class="percent">80%</span>
+        </div>
+        
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" alt="Social Media" />
+          <span>Social Media Manager</span>
+          <div class="progress-bar"><div style="width: 80%"></div></div>
+          <span class="percent">80%</span>
+        </div>
+
+        <div class="skill">
+          <img src="images/mysql.png" alt="mysql" />
+          <span>MySQL</span>
+          <div class="progress-bar"><div style="width: 80%"></div></div>
+          <span class="percent">80%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- Education Section -->
+<section class="education-section" id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-date">2022 - 2026</div>
+      <img src="images/kiit.jpeg" alt="KIIT Logo" class="timeline-icon" />
+      <div class="timeline-content">
+        <h3>KIIT University</h3>
+        <p><em>B.Tech in Electronics and Computer Science Engineering</em><br>
+          <p>Studying Data Structure and Algorithm, Full-stack development, ML, and Object-Oriented Programming.</p>
+        <div class="tags">
+          <span>DSA</span>
+          <span>Web Dev</span>
+          <span>DBMS</span>
+          <span>OS</span>
+          <span>CN</span>
+          <span>ML</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2020 - 2022</div>
+      <img src="images/BHI.jpeg" alt="BHI Logo" class="timeline-icon" />
+      <div class="timeline-content">
+        <h3>Balichak Bhajahari Institution</h3>
+        <p><em>Higher Secondary Education (WBCHSE)</em><br>
+          <strong>Percentage:</strong> 91.04%</p>
+        <p>Focused on PCM and Biology.</p>
+        <div class="tags">
+          <span>Physics</span>
+          <span>Math</span>
+          <span>Chemistry</span>
+          <span>Biology</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2018 - 2020</div>
+      <img src="images/BGHS.jpeg" alt="BGHS Logo" class="timeline-icon" />
+      <div class="timeline-content">
+        <h3>Balichak Girls' High School</h3>
+        <p><em>Secondary Education (WBBSE)</em><br>
+          <strong>Percentage:</strong> 67%</p>
+        <p>Built a strong foundation in science and logic.</p>
+        <div class="tags">
+          <span>Science</span>
+          <span>Math</span>
+          <span>English</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+</body>
+</html>
